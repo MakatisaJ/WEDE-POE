@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mathosim Gallery</title>
+    <link rel="stylesheet" href="../css/Mstyling.css">
+</head>
+<body>
+    <header>
+        <div class="header-inner">
+            <img src="../Assets/MLogo.png" alt="Mathosim Logo" class="logo">
+            <nav class="nav-links" aria-label="Primary">
+                <a href="index.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Gallary.html" aria-current="page">Gallery</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+            <button class="hamburger" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <h1>Gallery</h1>
+        <p class="lead">Selected work and training highlights.</p>
+
+        <!-- gallery grid: images stored in Mathosim/images/ -->
+        <section class="gallery-container">
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item">
+                    <img data-src="../images/img1.jpg" alt="Event Thematic Upholstery" class="gallery-img" loading="lazy">
+                    <div class="caption">Event Thematic Upholstery</div>
+                </div>
+                <div class="gallery-item">
+                    <img data-src="../images/img2.jpg" alt="Car Interiors" class="gallery-img" loading="lazy">
+                    <div class="caption">Car Interiors</div>
+                </div>
+                <div class="gallery-item">
+                    <img data-src="../images/img3.jpg" alt="Home Decor" class="gallery-img" loading="lazy">
+                    <div class="caption">Home Decor</div>
+                </div>
+                <div class="gallery-item">
+                    <img data-src="../images/img4.jpg" alt="Student Projects" class="gallery-img" loading="lazy">
+                    <div class="caption">Student Projects</div>
+                </div>
+                <div class="gallery-item">
+                    <img data-src="../images/img5.jpg" alt="Workshop" class="gallery-img" loading="lazy">
+                    <div class="caption">Workshop</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mathosim Trimming and Upholstery</p>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+</html>
